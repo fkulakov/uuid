@@ -1,0 +1,30 @@
+{
+    "name": "fkulakov/uuid",
+    "description": "Generate a UUID according to the RFC 4122 standard. Only support for version 5 UUID are built-in.",
+    "authors": [
+        {
+            "name": "Fyodor Kulakov",
+            "email": "fkulakov@gmail.com"
+        }
+    ],
+    "keywords": [
+        "UUID RFC4122"
+    ],
+    "homepage": "https://github.com/fkulakov/uuid",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uuid\\": "src/"
+        }
+    },
+    "support": {
+        "source": "https://github.com/fkulakov/uuid",
+        "issues": "https://github.com/fkulakov/uuid/issues"
+    }
+}
