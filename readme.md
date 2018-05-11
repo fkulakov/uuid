@@ -10,7 +10,7 @@ Only support for version 5 UUIDs are built-in.
 ## Installation
 
 ```shell
-composer require "fkulakov/uuid"
+composer require fkulakov/uuid dev-master
 ```
 
 ## Usage
