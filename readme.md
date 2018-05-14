@@ -3,6 +3,7 @@
 [![Total Downloads](https://poser.pugx.org/fkulakov/uuid/downloads.svg)](https://packagist.org/packages/fkulakov/uuid)
 [![codecov](https://codecov.io/gh/fkulakov/uuid/branch/master/graph/badge.svg)](https://codecov.io/gh/fkulakov/uuid)
 [![Build Status](https://secure.travis-ci.org/fkulakov/uuid.png?branch=master)](http://travis-ci.org/fkulakov/uuid)
+[![Code Quality](https://scrutinizer-ci.com/g/fkulakov/uuid/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fkulakov/uuid)
 
 Class to generate a universally unique identifier (UUID) according to the RFC 4122 standard. 
 Only support for version 5 UUIDs are built-in.
