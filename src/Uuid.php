@@ -34,8 +34,6 @@ final class Uuid
      * Uuid constructor.
      *
      * @param string $source
-     *
-     * @throws \Exception
      */
     private function __construct(string $source)
     {
@@ -47,8 +45,6 @@ final class Uuid
      * @param string $namespace
      *
      * @return Uuid
-     *
-     * @throws \Exception
      */
     public function setNamespace(string $namespace): Uuid
     {
@@ -63,7 +59,6 @@ final class Uuid
      * @param string $source
      *
      * @return Uuid
-     * @throws \Exception
      */
     public static function source(string $source): Uuid
     {
@@ -72,8 +67,6 @@ final class Uuid
 
     /**
      * @return Uuid
-     *
-     * @throws \Exception
      */
     public static function random(): Uuid
     {
